@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css">
+</head>
+<body>
+<div class="jumbotron" style="">
+    <div><h1>{% include "some_html.html" %}</h1>
+        {% block content %}
+        {% endblock %}
+        <hr>
+        <p>
+            <a href="/" class="btn btn-success btn-lg">Main</a>
+
+            <a href="/registration" class="btn btn-danger btn-lg">Registration</a>
+            <a href="/contact" class="btn btn-primary btn-lg">Contact</a>
+
+        </p>
+
+
+    </div>
+</div>
+<div class="container">
+
+<img src="https://media.tenor.com/727qo8TxQjcAAAAd/jujutsu-kaisen-gojo-satoru.gif" jsaction="VQAsE" class="r48jcc pT0Scc iPVvYb" style="max-width: 1000px; height: 500px; margin: 35px; width: 850px;" alt="Jujutsu Kaisen Gojo Satoru GIF - Jujutsu Kaisen Gojo Satoru Satoru Gojo -  Discover &amp; Share GIFs" jsname="kn3ccd">
+    <hr>
+    &copy; all rights reserved 2023
+</div>
+
+</body>
+</html>
